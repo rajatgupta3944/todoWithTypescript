@@ -1,0 +1,35 @@
+.todos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.todos_card{
+    width: 40vw;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    margin: 8px;
+}
+.todos_operator{
+    display: flex;
+    float: right;
+}
+.todos_operator span{
+    margin-left: 5px;
+}
+.input__box{
+    width: 25vw;
+    border-radius: 5px;
+    padding: 5px;
+}
+.input__submit{
+    border-radius: 50px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+}
